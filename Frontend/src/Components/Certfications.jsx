@@ -5,7 +5,7 @@ const certificationsData = [
     title: 'Open Hack in Hackathon Program',
     institution: 'M.L.V. Textile and Engineering College, Bhilwara',
     date: 'March 2024',
-    image: '/Aset/OPEN HACK .jpg',
+    image: `${import.meta.env.BASE_URL}Aset/OPEN HACK .jpg`,
     description: 'Recognized for outstanding performance and leadership in an inter-college hackathon.',
     link: 'https://example.com/hackathon-certificate'
   },
@@ -13,7 +13,7 @@ const certificationsData = [
     title: 'ML AI Workshop by IBM',
     institution: 'Cognizance, IIT Roorkee',
     date: 'December 2022',
-    image: '/Aset/IBM.jpg',
+    image: `${import.meta.env.BASE_URL}Aset/IBM.jpg`,
     description: 'Completed hands-on workshop on Machine Learning and Artificial Intelligence by IBM experts.',
     link: 'https://example.com/ibm-certificate'
   },
@@ -21,11 +21,10 @@ const certificationsData = [
     title: 'Introduction to Career Skills in Software Development',
     institution: 'LinkedIn Learning',
     date: 'August 2022',
-    image: '/Aset/Software Development-.jpg',
+    image: `${import.meta.env.BASE_URL}Aset/Software Development-.jpg`,
     description: 'Learned essential career skills for software development including teamwork and communication.',
     link: 'https://example.com/linkedin-certificate'
   },
-  
 ];
 
 const Certfications = () => {

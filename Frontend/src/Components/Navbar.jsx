@@ -32,10 +32,10 @@ const Navbar = () => {
         {/* Logo and Name */}
         <div className="flex items-center gap-2 md:gap-3">
           <img
-            src="/Aset/RS.jpg"
-            alt="Raghunandan Singh Logo"
-            className="h-8 w-8 rounded-full border-2 border-blue-600 shadow-md hover:scale-110 transition"
-          />
+  src={`${import.meta.env.BASE_URL}Aset/RS.jpg`}
+  alt="Raghunandan Singh Logo"
+  className="h-8 w-8 rounded-full border-2 border-blue-600 shadow-md hover:scale-110 transition"
+/>
           <span className="font-extrabold text-lg md:text-xl text-blue-700 tracking-tight whitespace-nowrap">
             Raghunandan Singh 
           </span>
