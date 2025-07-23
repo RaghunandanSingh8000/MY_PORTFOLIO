@@ -6,7 +6,7 @@ const internshipData = [
     period: 'Nov 2024 - Jan 2025 | Bhilwara, Rajasthan',
     description:
       'Designed a shopping cart website to simplify online shopping, enabling users to browse, add items, and securely checkout with ease.',
-    technologies: ['React', 'Node.js', 'MongoDB'],
+    technologies: ['React', 'Node.js','Express.js', 'MongoDB'],
   },
   {
     title: 'Ethical Hacking and Penetration Testing - C-DAC',
